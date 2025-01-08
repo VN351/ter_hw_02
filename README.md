@@ -364,7 +364,6 @@
       metadata = {
         serial-port-enable = 1
           ssh-keys          = "ubuntu:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC8bDGbiyUNa2k07/T9/4wqljOvFJOD nevzorovvlad@mail.ru"
-        #ssh-keys           = "ubuntu:${file(var.vms_ssh_root_key)}"
       }  
     */
       allow_stopping_for_update = true
